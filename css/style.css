@@ -13,6 +13,7 @@ span {
   color: #ee4248;
 }
 
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -31,6 +32,16 @@ span {
   justify-content: center;
   align-items: center;
 }
+.link a:nth-child(4)::after{
+content: "⌵";
+margin-left: 5px;
+margin-bottom: 10px;
+}
+.link a:nth-child(5)::after{
+  content: "⌵";
+  margin-left: 5px;
+  margin-bottom: 10px;
+  }
 .main {
   flex-grow: 1;
 }
